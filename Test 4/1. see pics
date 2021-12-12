@@ -1,0 +1,45 @@
+1. see pics
+
+2. Σ = {csc, math, 0, 1, 2, 3, ','}
+
+3. 12 transitions
+
+4. There's 12 necessary characters which is the total size of the language
+
+5. 
+	a. RG
+	b. RG
+	c. CFG
+	d. RG
+	e. CFG
+	f. CFG
+	g. CFG
+	h. BOTH
+
+6.
+	a. DFA
+	b. NFA
+	c. BOTH
+	d. BOTH
+	e. BOTH
+
+7. see pics
+
+8. 2
+
+9. see pics
+
+10. 
+	a. see pics
+	b. 	Consider the state [q0]:
+			on input a:
+				δ([q0], a) = lamda-closure(δ(q0, a))
+							=(A, E, C)
+				δ([q0], b) = lamda-closure(δ(q0, b))
+							=(Ø)
+				δ([q0], c) = lamda-closure(δ(q0, c))
+							=(Ø)
+				δ([q0], d) = lamda-closure(δ(q0, d))
+							=(Ø)
+				ℓ([A, E, C]) = lamda-closure[(dn(A,a)) U dn(E, a) U dn (c,a)]
+							=(Ø)

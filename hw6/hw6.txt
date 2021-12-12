@@ -1,0 +1,20 @@
+1.	See pics
+
+2.	We would have to find a starting point far into the tree to get S if we had a large string, and if it consisted of both T1 and U1 much more work
+
+3.	See pics
+
+4.	See pics
+
+5.	A context-free grammar G = (VT, VN, S, P) whose parsing table has no multiple entries is said to be LL(1). G2 has multiple entries.
+
+6.	a. See Pics.
+		FIRST - A FIRST set of a string of variables and terminals is the set of terminals that can first appear in the derived string. Therefore the FIRST section will be filled with anything that the parsed string's next character can start with
+
+		FOLLOW - The FOLLOW set of variable “X” is a set of terminals that can immediately follow “X” in some derivation.
+
+		Table Entries - There are two main rules for filling in the table. 1) For production “A->w”, for each terminal in FIRST(w), put w as an entry in the A row under the column for that terminal. 2) For production “A->w”, if lambda is in FIRST(w), put w as an entry in the A row under the columns for all symbols in the FOLLOW(A).
+
+	b.	see pics
+
+	c.  see pics
